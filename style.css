@@ -1,0 +1,208 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background:linear-gradient(135deg,#eef2f3,#dfe9f3);
+    color:#333;
+    line-height:1.7;
+}
+
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#1e293b;
+    padding:15px 40px;
+    position:sticky;
+    top:0;
+    z-index:100;
+    box-shadow:0 4px 10px rgba(0,0,0,.2);
+}
+
+
+.nav-links{
+    display:flex;
+    gap:20px;
+}
+
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+
+.nav-links a:hover{
+    color:#38bdf8;
+    transform:translateY(-2px);
+}
+
+
+.search-box{
+    display:flex;
+    gap:10px;
+}
+
+
+.search-box input{
+    padding:8px 12px;
+    border-radius:20px;
+    border:none;
+    outline:none;
+}
+
+
+.search-box button{
+    border:none;
+    padding:8px 15px;
+    border-radius:20px;
+    background:#38bdf8;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+
+.search-box button:hover{
+    background:#0ea5e9;
+}
+
+
+.container{
+
+    width:90%;
+    max-width:1100px;
+    margin:40px auto;
+
+    background:#FAFAFA;
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.15);
+}
+
+
+h1{
+    text-align:center;
+    color:#1e3a8a;
+    margin-bottom:25px;
+}
+
+
+h2{
+    color:darkgreen;
+}
+
+.container > img{
+
+    display:block;
+    margin:30px auto;
+
+    width:280px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 10px 25px rgba(0,0,0,.2);
+}
+
+
+ul{
+
+    width:250px;
+
+    margin:20px auto;
+
+    padding-left:20px;
+}
+
+
+ul li{
+    margin:8px 0;
+}
+
+
+.os-card{
+
+    background:white;
+
+    margin:35px 0;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.15);
+
+    transition:.4s;
+
+    animation:fadeUp .8s ease;
+}
+
+
+
+.os-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:
+    0 15px 35px rgba(0,0,0,.25);
+}
+
+
+.os-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+
+.os-header h2{
+
+    color:#2563eb;
+
+}
+
+
+.os-logo{
+
+    width:90px;
+
+    height:auto;
+
+    transition:.4s;
+
+}
+
+
+.os-logo:hover{
+
+    transform:
+    rotate(8deg)
+    scale(1.15);
+
+}
+
+
+.os-card p{
+
+    text-align:justify;
+
+}
